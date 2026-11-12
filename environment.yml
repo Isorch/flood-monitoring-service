@@ -1,0 +1,12 @@
+name: flood-service
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - flask>=3.0
+  - geopandas>=0.14
+  - rasterio>=1.3
+  - numpy>=1.24
+  - shapely>=2.0
+  - pandas>=2.0
+  - gunicorn
